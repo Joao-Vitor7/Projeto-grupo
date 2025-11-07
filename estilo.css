@@ -1,0 +1,204 @@
+* {
+    margin: 0%;
+}
+
+body {
+    background-image: url('./Imagens/fotos/Ceuop3/Ceuop1.png');
+}
+
+:root {}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 25px;
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+.cabeçalho {
+    background-color: #004aad;
+    padding: 20px;
+}
+
+.button {
+    text-decoration: none;
+    border: ridge;
+    border-radius: 8px;
+}
+
+.Busca {
+    display: flex;
+    padding: 30px;
+    gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 30px 11rem;
+}
+
+.Bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Buscar {
+    display: flex;
+    align-items: flex-end;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+.destino {
+    width: 250px;
+    border-radius: 8px;
+    border: solid black;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.5s ease;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.45);
+    background-color: white;
+}
+
+.destino:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.destino img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #004aad;
+    color: white;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+footer input {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+footer button {
+    padding: 10px;
+    background-color: white;
+    color: #004aad;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.Bloco input {
+    padding: 8px;
+    width: 200px;
+}
+
+.Buscar button {
+    padding: 10px 20px;
+    background-color: #004aad;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.destino p {
+    font-size: 1.2em;
+    color: #004aad;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.destino h3 {
+    margin: 10px 0;
+}
+
+.informacoes {
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    padding-top: 15px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* h3{
+    margin-bottom: 10px;
+} */
+
+.teste{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 50px;
+}
+
+#cartao{
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 20px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+}
+
+.pai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cabecalho_card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fechar{
+    font-size: 48px;
+    padding:5px 12px;
+    border: 2px solid black;
+
+}
+
+.fechar:hover{
+    color: red;
+    border-color: red;
+}
