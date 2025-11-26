@@ -2,11 +2,72 @@
     margin: 0%;
 }
 
+/* ... (Mantenha o CSS anterior exatamente igual) ... */
 body {
-    background-image: url('./Imagens/fotos/Ceuop3/Ceuop1.png');
+    background-image: url(./Imagens/fotos/Ceuop1.png);
 }
 
-:root {}
+.n1:hover {
+    transform: translateY(-10px) scale(1.03);
+    transition: all 0.5s ease;
+}
+
+h3 {
+    font-size: 80px;
+}
+
+.carousel-container {
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    border: 5px solid #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+}
+
+.carousel-slide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    /* A transição será controlada via JS para o autoplay funcionar bem */
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.carousel-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 .menu {
     display: flex;
@@ -42,10 +103,69 @@ nav a {
     margin: 30px 11rem;
 }
 
+.cabecalho-principal {
+    display: flex;
+    /* Coloca os itens (imagem e p) lado a lado */
+    align-items: center;
+    /* Alinha verticalmente os itens no meio */
+    gap: 15px;
+    /* Adiciona um espaço de 15px entre a imagem e a frase */
+    justify-content: space-between;
+    margin: 20px 0 0 20px;
+    padding-right: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.cabecalho-principal p {
+    font-family: "Carattere", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f9f9f9;
+    margin: 0;
+    /* Remove a margem padrão do <p> para um alinhamento perfeito */
+    font-size: 40px;
+
+}
+
+.loguinho {
+    /* Mantenha as configurações de animação no parágrafo */
+    animation-duration: 5s;
+    /* Aumentei para 5s para ficar mais suave */
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Remova as margens padrão do p, se necessário */
+    margin: 0;
+}
+
+@keyframes slidein {
+    from {
+        /* Começa totalmente fora da tela, à direita (100% do seu próprio tamanho + 100% da tela) */
+        transform: translateX(100vw);
+    }
+
+    to {
+        /* Termina totalmente fora da tela, à esquerda (-100% do seu próprio tamanho) */
+        transform: translateX(-30%);
+    }
+}
+
+.bot {
+    margin: auto;
+    margin-right: 20px;
+}
+
 .Bloco {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    height: 20vh;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 
 .Buscar {
@@ -117,7 +237,8 @@ h2 {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin: 15px;
+    margin: 2rem;
+    font-size: 30px;
 }
 
 .Bloco input {
@@ -146,21 +267,38 @@ h2 {
 }
 
 .informacoes {
+    background-color: white;
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    border: solid 1px;
+    border-radius: 50px;
+    transition: 1s;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 5);
+}
+
+.informacoes:hover {
+    transform: translateY(-10px) scale(1.03);
+}
+
+.informacoes2 {
     display: flex;
     gap: 10px;
     font-size: 25px;
     padding-top: 15px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 a {
     text-decoration: none;
+    color: #333;
 }
 
-/* h3{
-    margin-bottom: 10px;
-} */
 
 .teste {
     display: flex;
@@ -184,6 +322,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 15px;
 }
 
 .cabecalho_card {
@@ -196,10 +335,136 @@ a {
     border: 2px solid black;
     border-radius: 10px;
     transition: 1s;
+    width: 50px;
+    height: 50px;
 }
+
+#cartao_botao {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    min-height: 10px;
+    min-width: 100px;
+    font-size: 25px;
+}
+
+#localizacao {
+
+    position: absolute;
+    right: 130px;
+    bottom: 10px;
+}
+
 
 .fechar:hover {
     color: rgb(10, 11, 10);
     border-color: rgb(87, 85, 85);
     background-color: gray;
+}
+
+.informacoes img {
+    border: solid 1px;
+    border-radius: 50px;
+}
+
+.espaco {
+    font-size: 3rem;
+}
+
+.sem-espaco {
+    font-size: 2rem;
+    color: rgb(0, 0, 0)
+}
+
+p {
+    font-size: 20px;
+}
+
+@media (max-width: 600px) {
+    .pai {
+        gap: 30px;
+        margin: 20px;
+    }
+
+    .n1 {
+        font-size: 20px;
+    }
+
+    .informacoes2 {
+        flex-direction: column;
+        margin-bottom: 15px;
+    }
+
+    #cartao_titulo,
+    #cartao_texto {
+        font-size: 16px;
+    }
+
+    #imagem {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        aspect-ratio: 2/1;
+        overflow: hidden;
+    }
+
+    .fechar {
+
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.cartao-pag {
+    border-radius: 15px;
+    height: 650px;
+    aspect-ratio: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    border: ridge white;
+    background-color: white;
+}
+
+* {
+    margin: 0;
+}
+
+.strong {
+    font-size: 20px;
+}
+
+.btn-login {
+    background-color: #90EE90;
+    width: 50px 30px;
+    height: 40px;
+}
+
+.informacoes-pessoais {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo {
+    text-decoration: underline;
+}
+
+.botaolog {
+    border-radius: 10px;
+    height: 40px;
+    width: 60px;
+    margin-left: 10px;
+    margin-top: 5px;
 }

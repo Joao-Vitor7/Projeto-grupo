@@ -12,73 +12,97 @@
 <body>
     <header class="cabeçalho">
         <a href="./index.html">
-            <img src="./Imagens/jeg7.png" height="100" width="150"></a>
+            <img src="./Imagens/jeg7.png" height="120" width="170"></a>
         <nav class="pacotes">
             <ul class="menu">
-                <a href="./Norte.html">Norte</a>
-                <a href="./Nordeste.html">Nordeste</a>
-                <a href="./Sul.html">Sul</a>
-                <a href="./Sudeste.html">Sudeste</a>
-                <a href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Norte.html">Norte</a>
+                <a class="n1" href="./Nordeste.html">Nordeste</a>
+                <a class="n1" href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Sudeste.html">Sudeste</a>
+                <a class="n1" href="./Sul.html">Sul</a>
             </ul>
         </nav>
     </header>
-    <h2>Pacote de Luxo</h2>
+    <h2 class="espaco">Pacote de Luxo</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card28()">
+            <img src="./fotoscartao/SUDESTE/capitolio.jpg" width="400" height="400">
+            <p><strong>Capitólio</strong></p>
+            <p>R$ 5.900 por pessoa (Incluindo Aéreo)</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card29()">
+            <img src="./Imagens/fotos/Sudeste/Guarapari.png" width="400" height="400">
+            <p><strong>Guarapari</strong></p>
+            <p>R$ 4.500 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card30()">
+            <img src="./fotoscartao/SUDESTE/arraial.jpg" width="400" height="400">
+            <p><strong>Arraial do Cabo</strong></p>
+            <p>R$ 4.500 por pessoa (+ Aéreo)</p>
         </div>
     </div>
-    <h2>Pacote intermediário</h2>
+    <h2 class="espaco">Pacote Intermediário</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card31()">
+            <img src="./Imagens/fotos/Sudeste/RiodeJaneiro.png" width="400" height="400">
+            <p><strong>Rio de Janeiro</strong></p>
+            <p>R$ 4.500 por pessoa (Incluindo Aéreo)</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card32()">
+            <img src="./Imagens/fotos/Sudeste/OuroPretoMGpng.png" width="400" height="400">
+            <p><strong>Ouro Preto</strong></p>
+            <p>R$ 3.200 por pessoa (Incluindo Aéreo)</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card33()">
+            <img src="./fotoscartao/SUDESTE/vitoria.jpg" width="400" height="400">
+            <p><strong>Vitória</strong></p>
+            <p>R$ 2.900 por pessoa</p>
         </div>
     </div>
-    <h2>Pacote econômico</h2>
+    <h2 class="espaco">Pacote Econômico</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card34()">
+            <img src="./Imagens/fotos/Sudeste/CamposdeJordao.png" width="400" height="400">
+            <p><strong>Campos do Jordão</strong></p>
+            <p>R$ 1.800 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card35()">
+            <img src="./fotoscartao/SUDESTE/petropolis.jpg" width="400" height="400">
+            <p><strong>Petrópolis</strong></p>
+            <p>R$ 1.600 por pessoa (Não inclui aéreo)</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card36()">
+            <img src="./fotoscartao/SUDESTE/paraty.jpg" width="400" height="400">
+            <p><strong>Paraty</strong></p>
+            <p>R$ 5.900 por pessoa</p>
         </div>
 
-    </div>
-    <div id="cartao"> <!-- copiar em cada regiao, versao atualizada-->
-        <div class="cabecalho_card">
-            <h3 id="cartao_titulo">Título</h3>
-            <p class="fechar" onclick="fechar_cartao()">X</p>
+        <div id="cartao">
+            <div class="cabecalho_card">
+                <h3 id="cartao_titulo">Título</h3>
+                <img class="fechar" src="./Imagens/fotos/X.png" onclick="fechar_cartao()">
+            </div>
+            <div class="informacoes2">
+                <div class="X" id="imagem"></div>
+                <p id="cartao_texto"></p>
+            </div>
+            <a href="login-compra.html">
+                <button class="Compra" id="cartao_botao">Compra</button>
+            </a>
+            <a id="localizacao" href="">
+                <img class="butloc" src="but.png" height="30" width="30">
+            </a>
         </div>
-        <div class="informacoes">
-            <div id="imagem"></div>
-            <p id="cartao_texto"></p>
-        </div>
-    <div id="cartao"> <!-- copiar em cada regiao, versao atualizada-->
-        <div class="cabecalho_card">
-            <h3 id="cartao_titulo">Título</h3>
-            <p class="fechar" onclick="fechar_cartao()">X</p>
-        </div>
-        <div class="informacoes">
-            <div id="imagem"></div>
-            <p id="cartao_texto"></p>
-        </div>
+
+
 
 </body>
+
+<script>
+    function finalizar() {
+        alert('Compra Finalizada');
+        window.location.href = "index.html";
+    }
+</script>
 
 </html>

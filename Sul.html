@@ -12,76 +12,96 @@
 <body>
     <header class="cabeçalho">
         <a href="./index.html">
-            <img src="./Imagens/jeg7.png" height="100" width="150"></a>
+            <img src="./Imagens/jeg7.png" height="120" width="170"></a>
         <nav class="pacotes">
             <ul class="menu">
-                <a href="./Norte.html">Norte</a>
-                <a href="./Nordeste.html">Nordeste</a>
-                <a href="./Sul.html">Sul</a>
-                <a href="./Sudeste.html">Sudeste</a>
-                <a href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Norte.html">Norte</a>
+                <a class="n1" href="./Nordeste.html">Nordeste</a>
+                <a class="n1" href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Sudeste.html">Sudeste</a>
+                <a class="n1" href="./Sul.html">Sul</a>
             </ul>
         </nav>
     </header>
-    <h2>Pacote de Luxo</h2>
+    <h2 class="espaco">Pacote de Luxo</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card37()">
+            <img src="./fotoscartao/SUL/ametista.jpg" width="400" height="400">
+            <p><strong>Amentista do Sul</strong></p>
+            <p>R$ 4.950 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card38()">
+            <img src="./Imagens/fotos/Sul/IlhadomelParana.png" width="400" height="400">
+            <p><strong>Ilha do Mel</strong></p>
+            <p>R$ 5.330 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card39()">
+            <img src="./fotoscartao/SUL/bento.jpg" width="400" height="400">
+            <p><strong>Bento Gonçalves</strong></p>
+            <p>R$ 6.890 por pessoa</p>
         </div>
     </div>
-    <h2>Pacote intermediário</h2>
+    <h2 class="espaco">Pacote Intermediário</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card40()">
+            <img src="./fotoscartao/SUL/pontagrossa.jpg" width="400" height="400">
+            <p><strong>Ponta Grossa</strong></p>
+            <p>R$ 2.450 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card41()">
+            <img src="./Imagens/fotos/Sul/BetocarreroPenhaSc.jpg" width="400" height="400">
+            <p><strong>Penha</strong></p>
+            <p>R$ 3.835 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card42()">
+            <img src="./Imagens/fotos/Sul/CataratasdoIguacu.png" width="400" height="400">
+            <p><strong>Foz do Iguaçu</strong></p>
+            <p>R$ 4.550 por pessoa</p>
         </div>
     </div>
-    <h2>Pacote econômico</h2>
+    <h2 class="espaco">Pacote Econômico</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card43()">
+            <img src="./Imagens/fotos/Sul/Gramado.jpg" width="400" height="400">
+            <p><strong>Gramado e Canela</strong></p>
+            <p>R$ 2.275 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card44()">
+            <img src="./Imagens/fotos/Sul/CamboriuSc.png" width="400" height="400">
+            <p><strong>Balneário Camboriú</strong></p>
+            <p>R$ 1.755 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card45()">
+            <img src="./fotoscartao/SUL/saofranciscodosul.jpg" width="415" height="400">
+            <p><strong>São Francisco do Sul</strong></p>
+            <p>R$ 1.980 por pessoa</p>
         </div>
 
-    </div>
-    <div id="cartao"> <!-- copiar em cada regiao, versao atualizada-->
-        <div class="cabecalho_card">
-            <h3 id="cartao_titulo">Título</h3>
-            <p class="fechar" onclick="fechar_cartao()">X</p>
-        </div>
-        <div class="informacoes">
-            <div id="imagem"></div>
-            <p id="cartao_texto"></p>
-        </div>
-
-        <div id="cartao"> <!-- copiar em cada regiao, versao atualizada-->
+        <div id="cartao">
             <div class="cabecalho_card">
                 <h3 id="cartao_titulo">Título</h3>
-                <p class="fechar" onclick="fechar_cartao()">X</p>
+                <img class="fechar" src="./Imagens/fotos/X.png" onclick="fechar_cartao()">
             </div>
-            <div class="informacoes">
-                <div id="imagem"></div>
+            <div class="informacoes2">
+                <div class="X" id="imagem"></div>
                 <p id="cartao_texto"></p>
             </div>
-
+            <a href="login-compra.html">
+                <button class="Compra" id="cartao_botao">Compra</button>
+            </a>
+            <a id="localizacao" href="">
+                <img class="butloc" src="but.png" height="30" width="30">
+            </a>
         </div>
-    </div>
+
+
 </body>
+
+<script>
+    function finalizar() {
+        alert('Compra Finalizada');
+        window.location.href = "index.html";
+    }
+</script>
 
 </html>

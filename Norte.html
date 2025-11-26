@@ -7,76 +7,107 @@
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
     <script src="cards.js"></script>
+    <script src="script.js"></script>
 </head>
 
 <body>
     <header class="cabeçalho">
         <a href="./index.html">
-            <img src="./Imagens/jeg7.png" height="100" width="150"></a>
+            <img src="./Imagens/jeg7.png" height="120" width="170"></a>
         <nav class="pacotes">
             <ul class="menu">
-                <a href="./Norte.html">Norte</a>
-                <a href="./Nordeste.html">Nordeste</a>
-                <a href="./Sul.html">Sul</a>
-                <a href="./Sudeste.html">Sudeste</a>
-                <a href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Norte.html">Norte</a>
+                <a class="n1" href="./Nordeste.html">Nordeste</a>
+                <a class="n1" href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Sudeste.html">Sudeste</a>
+                <a class="n1" href="./Sul.html">Sul</a>
             </ul>
         </nav>
     </header>
-    <h2>Pacote de Luxo</h2>
+    <h2 class="espaco">Pacote de Luxo</h2>
     <div class="pai">
         <div class="informacoes" onclick="card1()">
             <img src="./Imagens/fotos/Norte/IlhadeMarajo.png" width="400" height="400">
+            <p><strong>Ilha de Marajó</strong></p>
+            <p>R$ 7.000 por pessoa</p>
         </div>
         <div class="informacoes" onclick="card2()">
             <img src="./fotoscartao/NORTE/alterdechao.jpg" width="400" height="400">
+            <p><strong>Alter de Chão</strong></p>
+            <p>R$ 7.500 por pessoa</p>
         </div>
         <div class="informacoes" onclick="card3()">
-            <img src="./fotoscartao/NORTE/macapa.jpg" width="400" height="400">
+            <img src="./fotoscartao/NORTE/palmas.jpg" width="400" height="400">
+            <p><strong>Palmas</strong></p>
+            <p>4.800 por pessoa (+ Aéreo)</p>
         </div>
     </div>
-    <h2>Pacote intermediário</h2>
+    <h2 class="espaco">Pacote Intermediário</h2>
     <div class="pai">
         <div class="informacoes" onclick="card4()">
             <img src="./Imagens/fotos/Norte/Anavilhanas.png" width="400" height="400">
+            <p><strong>Manaus</strong></p>
+            <p>R$ 9.295 por pessoa</p>
         </div>
         <div class="informacoes" onclick="card5()">
             <img src="./Imagens/fotos/Norte/MonteRoraima.png" width="400" height="400">
+            <p><strong>Monte Roraima</strong></p>
+            <p>R$ 11.000 por pessoa (Aéreo Incluso)</p>
         </div>
         <div class="informacoes" onclick="card6()">
             <img src="./fotoscartao/NORTE/riobranco.jpeg" width="400" height="400">
+            <p><strong>Rio Branco</strong></p>
+            <p>R$ 2.800 por pessoa (Aéreo Incluso)</p>
         </div>
     </div>
-    <h2>Pacote econômico</h2>
+    <h2 class="espaco">Pacote Econômico</h2>
     <div class="pai">
         <div class="informacoes" onclick="card7()">
-            <img src="./Imagens/fotos/Norte/Jalapao.png" width="400" height="400">
+            <img src="./Imagens/fotos/Norte/pjalapao.jpg" width="400" height="400">
+            <p><strong>Parque Jalapão</strong></p>
+            <p>R$ 5.500 por pessoa</p>
         </div>
         <div class="informacoes" onclick="card8()">
-            <img src="./Imagens/fotos/Norte/PortoVelho.png" width="400" height="400">
+            <img src="./fotoscartao/NORTE/portovelho.png" width="400" height="400">
+            <p><strong>Porto Velho</strong></p>
+            <p>R$ 2.700 por pessoa</p>
         </div>
         <div class="informacoes" onclick="card9()">
             <img src="./fotoscartao/NORTE/macapa.jpg" width="400" height="400">
+            <p><strong>Macapá</strong></p>
+            <p>R$ 2.400 por pessoa (Aéreo Est.)</p>
         </div>
 
 
 
     </div>
-
 
     <div id="cartao">
         <div class="cabecalho_card">
             <h3 id="cartao_titulo">Título</h3>
-            <img class="fechar" src="./Imagens/fotos/X.png" width="50" height="50" onclick="fechar_cartao()">
+            <img class="fechar" src="./Imagens/fotos/X.png" onclick="fechar_cartao()">
         </div>
-        <div class="informacoes">
+        <div class="informacoes2">
             <div class="X" id="imagem"></div>
             <p id="cartao_texto"></p>
         </div>
+        <a href="login-compra.html">
+            <button class="Compra" id="cartao_botao">Compra</button>
+        </a>
+        <a id="localizacao" href="">
+            <img class="butloc" src="but.png" height="30" width="30">
+        </a>
+    </div>
 
-    </div>
-    </div>
+
 
 </body>
+
+<script>
+    function finalizar() {
+        alert('Compra Finalizada');
+        window.location.href = "index.html";
+    }
+</script>
 
 </html>

@@ -1,0 +1,58 @@
+NORTE
+
+Belém - https://www.google.com/maps/place/Bel%C3%A9m,+PA/@-1.3413321,-48.7587307,11z
+Alter de Chao - https://www.google.com/maps/place/Alter+do+Ch%C3%A3o,+Santar%C3%A9m+-+PA/@-2.509483,-54.9628882,15z
+Palmas - https://www.google.com/maps/place/Palmas,+TO/@-10.2600493,-48.4296365,12z
+Manaus - https://www.google.com/maps/place/Manaus,+AM/@-3.0446589,-60.0495061,12z
+Monte Roraima - https://www.google.com/maps/place/Monte+Roraima/@5.1315564,-60.7688486,15z
+Rio Branco - https://www.google.com/maps/place/Rio+Branco,+AC/@-9.9863204,-67.9134988,12z
+Parque Jalapao - https://www.google.com/maps/place/Parque+Estadual+do+Jalap%C3%A3o/@-10.2984889,-46.7564631,17z
+Porto Velho - https://www.google.com/maps/place/Porto+Velho,+RO/@-8.7565367,-63.937309,12z
+Macapá - https://www.google.com/maps/place/Macap%C3%A1,+AP/@0.1015795,-51.2598031,11z
+
+NORDESTE
+
+Joao Pessoa - https://www.google.com/maps/place/Jo%C3%A3o+Pessoa,+PB/@-7.1466015,-34.9639997,12z
+Natal - https://www.google.com/maps/place/Natal,+RN/@-5.8015818,-35.3046091,12z
+Fernando de Noronha - https://www.google.com/maps/place/Fernando+de+Noronha+-+PE/@-3.8429907,-32.4681625,13z
+Porto de Galinhas - https://www.google.com/maps/place/Porto+de+Galinhas/@-8.4933762,-35.0114199,15z
+Teresina - https://www.google.com/maps/place/Teresina,+PI/@-5.0937344,-42.8234804,12z
+Tamandaré - https://www.google.com/maps/place/Praia+de+Tamandar%C3%A9+-+Tamandar%C3%A9,+PE,+55578-000/@-8.7568865,-35.1200081,14z
+Recife - https://www.google.com/maps/place/Recife,+PE/@-8.043303,-35.0166192,12z
+Maragogi - https://www.google.com/maps/place/Maragogi,+AL,+57955-000/@-9.0166491,-35.2430018,14z
+São Luis - https://www.google.com/maps/place/S%C3%A3o+Lu%C3%ADs,+MA/@-2.5606296,-44.3405242,12z
+
+CENTRO
+
+Nobres - https://www.google.com/maps/place/Nobres,+MT,+78470-000/@-14.7188086,-56.3549666,14z
+Caldas - https://www.google.com/maps/place/Caldas+Novas,+GO/@-17.726754,-48.6978722,12z
+Goiania - https://www.google.com/maps/place/Goi%C3%A2nia,+GO/@-16.6973575,-49.4696459,11z
+Bonito - https://www.google.com/maps/place/Bonito,+MS,+79290-000/@-21.123919,-56.5114437,14z
+Pirenópolis - https://www.google.com/maps/place/Bonito,+MS,+79290-000/@-21.123919,-56.5114437,14z
+Alto Paraiso - https://www.google.com/maps/place/Alto+Para%C3%ADso+de+Goi%C3%A1s,+GO,+73770-000/@-14.1375031,-47.5374037,14z
+Poconé - https://www.google.com/maps/place/Pocon%C3%A9,+MT,+78175-000/@-16.2615784,-56.6545653,14z	
+Varzea - https://www.google.com/maps/place/V%C3%A1rzea+Grande,+MT/@-15.6649994,-56.2286836,12z
+
+SUDESTE
+
+Capitolio - https://www.google.com/maps/place/Capit%C3%B3lio,+MG,+37930-000/@-20.6151411,-46.0536749,16z
+Guarapari - https://www.google.com/maps/place/Guarapari,+ES/@-20.6464491,-40.6381961,11z
+Arraial - https://www.google.com/maps/place/Arraial+do+Cabo,+RJ,+28930-000/@-22.9646728,-42.0504104,14z
+Rio de Janeiro - https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137906,-43.7756427,10z
+Ouro Preto - https://www.google.com/maps/place/Ouro+Preto,+MG,+35400-000/@-20.391286,-43.5222453,14z
+Vitoria - https://www.google.com/maps/place/Vit%C3%B3ria,+ES/@-20.2821867,-40.3269035,13z 
+Campos - https://www.google.com/maps/place/Campos+do+Jord%C3%A3o,+SP,+12460-000/@-22.7330045,-45.6273303,13z
+Petropolis - https://www.google.com/maps/place/Petr%C3%B3polis+-+RJ/@-22.3878429,-43.3424539,11z
+Paraty - https://www.google.com/maps/place/Paraty,+RJ/@-23.2175754,-44.7452762,14z
+
+SUL
+
+Amestista -
+Ilha do Mel - 
+Bento - 
+Ponto -
+Penha - 
+Foz - 
+Gramado Canela - 
+BC - 
+São Francisco -

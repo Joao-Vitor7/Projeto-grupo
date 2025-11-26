@@ -4,94 +4,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JGE</title>
+    <title>Carrossel Animado</title>
     <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Carattere&display=swap');
+    </style>
 </head>
 
 <body>
+
     <header class="cabeçalho">
-        <a href="./index.html">
-            <img src="./Imagens/jeg7.png" height="100" width="150"></a>
+        <div class="cabecalho-principal">
+            <a href="./index.html">
+                <img src="./Imagens/jeg7.png" height="120" width="170" alt="Logo da Viagem">
+            </a>
+            <p class="loguinho">Sua viagem começa aqui🛫</p>
+        </div>
+
         <nav class="pacotes">
             <ul class="menu">
-                <a href="./Norte.html">Norte</a>
-                <a href="./Nordeste.html">Nordeste</a>
-                <a href="./Centro-Oeste.html">Centro-Oeste</a>
-                <a href="./Sudeste.html">Sudeste</a>
-                <a href="./Sul.html">Sul</a>
-
-
+                <a class="n1" href="./Norte.html">Norte</a>
+                <a class="n1" href="./Nordeste.html">Nordeste</a>
+                <a class="n1" href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Sudeste.html">Sudeste</a>
+                <a class="n1" href="./Sul.html">Sul</a>
             </ul>
         </nav>
     </header>
+
     <section class="Busca">
         <div class="Bloco">
-            <label for="origem">Origem</label>
-            <input type="text" placeholder="Digite a cidade de origem">
-            <label for="destino">Destino</label>
-            <input type="text" placeholder="Digite o destino">
+            <div class="formulario">
+                <label for="origem">Origem</label>
+                <input type="text" placeholder="Digite a cidade de origem">
+            </div>
+            <div class="formulario">
+                <label for="destino">Destino</label>
+                <input type="text" placeholder="Digite o destino">
+            </div>
         </div>
         <div class="Bloco">
-            <label for="inicio">Inicio</label>
-            <input type="date" id="inicio">
-            <Label for="fim">Fim</Label>
-            <input type="date" id="fim">
+            <div class="formulario">
+                <label for="inicio">Inicio</label>
+                <input type="date" id="inicio">
+            </div>
+            <div class="formulario">
+                <Label for="fim">Fim</Label>
+                <input type="date" id="fim">
+            </div>
         </div>
         <div class="Buscar">
-            <button>Buscar</button>
+            <button class="bot">Buscar</button>
         </div>
     </section>
+
+    <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="./Imagens/Jalapao2ft.png" alt="Imagem 1">
+            <img src="./Imagens/OuroPretoMGpng.png" alt="Imagem 2">
+            <img src="./Imagens/PeixesPortodegalinhas.png" alt="Imagem 3">
+            <img src="./Imagens/CaldasNovasGOIAS.png" alt="Imagem 4">
+        </div>
+        
+        <button id="prevBtn" class="carousel-btn prev">&lt;</button>
+        <button id="nextBtn" class="carousel-btn next">&gt;</button>
+    </div>
+
     <main>
         <section class="galeria">
             <div class="destino">
                 <a href="./Norte.html">
-                    <img src="./Imagens/fotos/Norte/PortoVelho.png">
-                    <h3>Porto Velho</h3>
+                    <img class="sem_borda" src="./Imagens/fotos/Norte/PortoVelho.png">
+                    <h3 class="imagem_inicial"></h3>Porto Velho</h3>
                     <p>R$2700,00 p/ pessoa</p>
                 </a>
             </div>
             <div class="destino">
                 <a href="Nordeste.html">
-                    <img src="./Imagens/fotos/Nordeste/RECIFENORDESTE.png">
-                    <h3>Recife</h3>
+                    <img class="sem_borda" src="./Imagens/fotos/Nordeste/RECIFENORDESTE.png">
+                    <h3 class="imagem_inicial"></h3>Recife</h3>
                     <p>R$1505,00 p/ pessoa</p>
                 </a>
             </div>
             <div class="destino">
                 <a href="Centro-Oeste.html">
-                    <img src="./Imagens/fotos/Centro-Oeste/ChapadaDosVeadeirosGOIAS.png">
-                    <h3>Brasília</h3>
+                    <img class="sem_borda" src="./Imagens/fotos/Centro-Oeste/ChapadaDosVeadeirosGOIAS.png">
+                    <h3 class="imagem_inicial"></h3>Brasília</h3>
                     <p>R$1500,00 p/ pessoa</p>
                 </a>
             </div>
             <div class="destino">
                 <a href="Sudeste.html">
-                    <img src="./Imagens/fotos/Sudeste/CamposdeJordao.png">
-                    <h3>Campos do Jordão</h3>
+                    <img class="sem_borda" src="./Imagens/fotos/Sudeste/CamposdeJordao.png">
+                    <h3 class="imagem_inicial"></h3>Campos do Jordão</h3>
                     <p>R$1800,00 p/ pessoa</p>
                 </a>
             </div>
             <div class="destino">
                 <a href="Sul.html">
-                    <img src="./Imagens/fotos/Sul/Gramado.jpg">
-                    <h3>Gramado e Canela</h3>
+                    <img class="sem_borda" src="./Imagens/fotos/Sul/Gramado.jpg">
+                    <h3 class="imagem_inicial"></h3>Cramado e Canela</h3>
                     <p>R$2275,00 p/ pessoa</p>
                 </a>
             </div>
         </section>
     </main>
+
+    
+
     <footer>
         <h2>
             Fale com a gente
         </h2>
         <form>
-            <input type="e-mail" placeholder="Seu e-mail">
+            <input type="email" placeholder="Seu e-mail">
             <input type="tel" placeholder="Seu número de telefone">
             <button>
                 Enviar
             </button>
         </form>
     </footer>
+
 </body>
 
 </html>

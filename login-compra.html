@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<a href="index.html">
+    <button class="botaolog">Voltar</button>
+</a>
+
+<body style="background-image: url(aviaofundo.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;">
+
+    <div class="container">
+
+        <form class="cartao-pag">
+            <div class="informacoes-pessoais">
+                <h1 class="titulo">Informações Pessoais:</h1>
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="nome"><strong>Nome:</strong></label>
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="email"><strong>E-mail:</strong></label>
+                <input type="text" placeholder="Digite seu e-mail">
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="CPF"><strong>CPF:</strong></label>
+                <input type="text" placeholder="123.456.789-00">
+                <small>Formato :123.456.789-00</small>
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="Number-cartao"><strong>Número do cartão:</strong></label>
+                <input type="text" placeholder="Digite o número do cartão">
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="MM/AA"><strong>MM/AA</strong></label>
+                <input type="text" placeholder="MM/AA">
+            </div>
+            <div class="informacoes-pessoais">
+                <label class="strong" for="CVV/CVC"><strong>CVV/CVC</strong></label>
+                <input type="text" placeholder="CVV/CVC">
+            </div>
+
+            <button type="button" class="btn-login" onclick="finalizar()">Finalizar compra</button>
+        </form>
+    </div>
+
+
+
+
+
+
+
+</body>
+<script>
+    function finalizar() {
+        alert('Compra Finalizada');
+        window.location.href = "index.html";
+    }
+</script>
+
+</html>

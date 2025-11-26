@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,63 +12,98 @@
 <body>
     <header class="cabeçalho">
         <a href="./index.html">
-            <img src="./Imagens/jeg7.png" height="100" width="150"></a>
+            <img src="./Imagens/jeg7.png" height="120" width="170"></a>
         <nav class="pacotes">
             <ul class="menu">
-                <a href="./Norte.html">Norte</a>
-                <a href="./Nordeste.html">Nordeste</a>
-                <a href="./Sul.html">Sul</a>
-                <a href="./Sudeste.html">Sudeste</a>
-                <a href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Norte.html">Norte</a>
+                <a class="n1" href="./Nordeste.html">Nordeste</a>
+                <a class="n1" href="./Centro-Oeste.html">Centro-Oeste</a>
+                <a class="n1" href="./Sudeste.html">Sudeste</a>
+                <a class="n1" href="./Sul.html">Sul</a>
             </ul>
         </nav>
     </header>
-    <h2>Pacote de Luxo</h2>
+    <h2 class="espaco">Pacote de Luxo</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card10()">
+            <img src="./fotoscartao/NORDESTE/joaopessoa.jpg" width="400" height="400">
+            <p><strong>João Pessoa</strong></p>
+            <p>R$ 3.890 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card11()">
+            <img src="./Imagens/fotos/Nordeste/NatalRN.png" width="400" height="400">
+            <p><strong>Natal</strong></p>
+            <p>R$ 7.950 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card12()">
+            <img src="./fotoscartao/NORDESTE/fernandodenoronha.jpg" width="400" height="400">
+            <p><strong>Fernando de Noronha</strong></p>
+            <p>R$ 18.000 por pessoa (+ Aéreo)</p>
         </div>
     </div>
-    <h2>Pacote intermediário</h2>
+    <h2 class="espaco">Pacote Intermediário</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card13()">
+            <img src="./Imagens/fotos/Nordeste/HotelportodegalinhasNORDESTE.png" width="400" height="400">
+            <p><strong>Porto de Galinhas</strong></p>
+            <p>R$ 2.940 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card14()">
+            <img src="./fotoscartao/NORDESTE/teresina.jpg" width="400" height="400">
+            <p><strong>Teresina</strong></p>
+            <p> R$ 2.680 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card15()">
+            <img src="./Imagens/fotos/Nordeste/IgrejinhaPERNAMBUCO.png" width="400" height="400">
+            <p><strong>Tamandaré</strong></p>
+            <p>R$ 3.480 por pessoa</p>
         </div>
     </div>
-    <h2>Pacote econômico</h2>
+    <h2 class="espaco">Pacote Econômico</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card16()">
+            <img src="./Imagens/fotos/Nordeste/RECIFENORDESTE.png" width="400" height="400">
+            <p><strong>Recife</strong></p>
+            <p>R$ 1.505 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card17()">
+            <img src="./Imagens/fotos/Nordeste/MaragogiNORDESTE.png" width="400" height="400">
+            <p><strong>Maragogi</strong></p>
+            <p>R$ 1.620 por pessoa</p>
         </div>
-        <div class="informacoes" onclick="card()">
-            <img src="" width="400" height="400">
+        <div class="informacoes" onclick="card18()">
+            <img src="./fotoscartao/NORDESTE/saoluis.jpg" width="400" height="400">
+            <p><strong>São Luís</strong></p>
+            <p>R$ 2.150 por pessoa</p>
         </div>
 
     </div>
-    <div id="cartao"> <!-- copiar em cada regiao, versao atualizada-->
+
+    <div id="cartao">
         <div class="cabecalho_card">
             <h3 id="cartao_titulo">Título</h3>
-            <p class="fechar" onclick="fechar_cartao()">X</p>
+            <img class="fechar" src="./Imagens/fotos/X.png" onclick="fechar_cartao()">
         </div>
-        <div class="informacoes">
-            <div id="imagem"></div>
+        <div class="informacoes2">
+            <div class="X" id="imagem"></div>
             <p id="cartao_texto"></p>
         </div>
+        <a href="login-compra.html">
+            <button class="Compra" id="cartao_botao">Compra</button>
+        </a>
+        <a id="localizacao" href="">
+            <img class="butloc" src="but.png" height="30" width="30">
+        </a>
+    </div>
+
+
+
 </body>
 
+<script>
+    function finalizar() {
+        alert('Compra Finalizada');
+        window.location.href = "index.html";
+    }
+</script>
 </html>
