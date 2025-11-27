@@ -168,8 +168,7 @@ function card22() {
     document.getElementById('cartao_titulo').innerHTML = 'Bonito - Intermediário';
     document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas inclusas no valor total (estimativa de R$ 800).<br>🏨 Hospedagem: 3 Noites em Pousada de Charme + Café da Manhã.<br>🚌 Transfer: Van Compartilhada (Aeroporto de Campo Grande - CGR ↔ Bonito Ida e Volta).<br>🎟️ Passeios: Passeio de Flutuação, Trilha com Cachoeiras, Visita à Gruta do Lago Azul.';
 }
-document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Centro-Oeste/BONITOms.png" width="400" height="400">';
-document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Bonito,+MS,+79290-000/@-21.123919,-56.5114437,14z';
+
 function card23() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Pirenópolis - Intermediário';

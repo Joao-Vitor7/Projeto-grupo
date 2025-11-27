@@ -7,9 +7,12 @@ body {
     background-image: url(./Imagens/fotos/Ceuop1.png);
 }
 
+.n1 {
+    transition: 1s;
+}
+
 .n1:hover {
-    transform: translateY(-10px) scale(1.03);
-    transition: all 0.5s ease;
+    color: #333;
 }
 
 h3 {
@@ -269,7 +272,7 @@ h2 {
 .informacoes {
     background-color: white;
     display: flex;
-    gap: 15px;
+    gap: 18px;
     font-size: 25px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -322,7 +325,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin: 15px;
+    margin: 20px;
 }
 
 .cabecalho_card {
@@ -380,7 +383,7 @@ p {
     font-size: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 610px) {
     .pai {
         gap: 30px;
         margin: 20px;
@@ -413,6 +416,16 @@ p {
 
         width: 20px;
         height: 20px;
+    }
+
+    @keyframes slidein {
+        from {
+            transform: translateX(100vw);
+        }
+
+        to {
+            transform: translateX(-10%);
+        }
     }
 }
 
