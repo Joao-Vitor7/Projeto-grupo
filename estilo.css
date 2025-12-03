@@ -455,7 +455,7 @@ h1 {
 @media (max-width: 600px) {
 
     .pai {
-        gap: 100px;
+        gap: 50px;
         margin: 20px;
     }
 
@@ -506,5 +506,4 @@ h1 {
     footer form {
         max-width: 300px;
     }
-
 }

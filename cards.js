@@ -1,17 +1,16 @@
-function fechar_cartao() {
+function fechar_cartao() { //Ao clicar no botão "Fechar Cartão", a display propriedade do div elemento será alterada para 'none'`false`, fazendo com que ele desapareça da página
     document.getElementById('cartao').style.display = 'none';
 
 }
 
 //Norte
 
-function card1() {
-    document.getElementById('cartao').style.display = 'block';
-    document.getElementById('cartao_titulo').innerHTML = 'Belém - Luxo';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas de ida e volta para Belém (BEL) - Aeroporto Internacional Val-de-Cans.<br> 🏨 Hospedagem: (6 noites): 3 Noites em Belém: Hotel Boutique de luxo, 3 Noites na Ilha do Marajó: Pousada de Charme <br>🚌 Transfer: Traslados Privativos em Belém (Aeroporto/Hotel), Traslados na Ilha. <br> 🎟️ Passeios: Visita guiada ao Mercado Ver-o-Peso, Estação das Docas, e outros pontos históricos.';
-    document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Norte/IlhadeMarajo.png" width="400" height="400">';
-    document.getElementById('cartao_botao').innerHTML = 'Compra';
-    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Bel%C3%A9m,+PA/@-1.3413321,-48.7587307,11z';
+function card1() { //Realiza uma tarefa especifica quando é chamada
+    document.getElementById('cartao').style.display = 'block'; //Faz com que o card fique invisivel antes de tocar
+    document.getElementById('cartao_titulo').innerHTML = 'Belém - Luxo';//Faz o título aparecer dentro do cartao
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas de ida e volta para Belém (BEL) - Aeroporto Internacional Val-de-Cans.<br> 🏨 Hospedagem: (6 noites): 3 Noites em Belém: Hotel Boutique de luxo, 3 Noites na Ilha do Marajó: Pousada de Charme <br>🚌 Transfer: Traslados Privativos em Belém (Aeroporto/Hotel), Traslados na Ilha. <br> 🎟️ Passeios: Visita guiada ao Mercado Ver-o-Peso, Estação das Docas, e outros pontos históricos.';//Faz as informações aparecer dentro do card
+    document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Norte/IlhadeMarajo.png" width="400" height="400">'; //A imagem de localizaçào que está com link
+    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Bel%C3%A9m,+PA/@-1.3413321,-48.7587307,11z'; //FA foto que está dentro do card 
 }
 
 function card2() {
@@ -35,8 +34,8 @@ function card4() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Manaus e Anavilhanas - Intermediário';
     document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas de ida e volta para Manaus (MAO) - Aeroporto Internacional Eduardo Gomes.<br>🏨 Hospedagem (4 noites): 1 Noite em Hotel 3/4 estrelas em Manaus, 3 Noites em Lodge/Hotel de Selva bem avaliado e Pensão Completa.<br>🚌 Transfer: Traslado Compartilhado Confortável (Van/Barco rápido) entre Manaus e o Lodge de Selva em Anavilhanas (ida e volta).<br>🎟️ Passeios: City Tour em Manaus, Tour de Dia Inteiro, Atividades de Selva.';
-    document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Norte/Anavilhanas.png" width="400" height="400">';
-    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Manaus,+AM/@-3.0446589,-60.0495061,12z';
+    document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Norte/Anavilhanas.png" width="400" height="400">'; 
+    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Manaus,+AM/@-3.0446589,-60.0495061,12z'; 
 }
 function card5() {
     document.getElementById('cartao').style.display = 'block';
