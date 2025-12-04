@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilo.css">
-    <script src="cards.js"></script>
-    <script src="script.js"></script>
+    <script src="cards.js"></script> <!--Liga ao js dos cards-->
+    <script src="script.js"></script> <!--Liga ao js do carrossel-->
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     </header>
     <h2 class="espaco">Pacote de Luxo</h2>
     <div class="pai">
-        <div class="informacoes" onclick="card1()">
+        <div class="informacoes" onclick="card1()"> <!--Onclick é ligado a function, que tem as informaçães-->
             <img src="./Imagens/fotos/Norte/IlhadeMarajo.png" width="400" height="400">
             <p><strong>Ilha de Marajó</strong></p>
             <p>R$ 7.000 por pessoa</p>
@@ -82,9 +82,9 @@
 
     </div>
 
-    <div id="cartao">
+    <div id="cartao"> <!--Cartão que aparece do meio da tela-->
         <div class="cabecalho_card">
-            <h3 id="cartao_titulo">Título</h3>
+            <h3 id="cartao_titulo">Título</h3> <!--Id cartao_titulo serve para que no js o título no dentro do card-->
             <img class="fechar" src="./Imagens/fotos/X.png" onclick="fechar_cartao()">
         </div>
         <div class="informacoes2">
