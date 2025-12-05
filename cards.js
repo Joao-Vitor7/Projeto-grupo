@@ -144,7 +144,7 @@ function card18() {
 function card19() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Nobres - Luxo';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso no valor total (Estimativa de R$ 1.200). Voo para Cuiabá.<br>🏨 Hospedagem: 4 Noites em Resort 5 Estrelas na região do Lago do Manso com regime de Pensão Completa.<br>🚌 Transfer: Transfer Privativo (Aeroporto de Cuiabá - CGB ↔ Resort/Nobres Ida e Volta) em veículo executivo.<br>🎟️ Passeios: Flutuação Premium no Rio Triste, Visita à Cachoeira Serra Azul, Observação de Araras na Lagoa das Araras, Passeio de Lancha Privativa no Lago do Manso.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso no valor total. Voo para Cuiabá.<br>🏨 Hospedagem: 4 Noites em Resort 5 Estrelas na região do Lago do Manso com regime de Pensão Completa.<br>🚌 Transfer: Transfer Privativo (Aeroporto de Cuiabá - CGB ↔ Resort/Nobres Ida e Volta) em veículo executivo.<br>🎟️ Passeios: Flutuação Premium no Rio Triste, Visita à Cachoeira Serra Azul, Observação de Araras na Lagoa das Araras, Passeio de Lancha Privativa no Lago do Manso.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/CENTRO/nobres.jpg" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Nobres,+MT,+78470-000/@-14.7188086,-56.3549666,14z';
 }
@@ -165,7 +165,9 @@ function card21() {
 function card22() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Bonito - Intermediário';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas inclusas no valor total (estimativa de R$ 800).<br>🏨 Hospedagem: 3 Noites em Pousada de Charme + Café da Manhã.<br>🚌 Transfer: Van Compartilhada (Aeroporto de Campo Grande - CGR ↔ Bonito Ida e Volta).<br>🎟️ Passeios: Passeio de Flutuação, Trilha com Cachoeiras, Visita à Gruta do Lago Azul.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas inclusas no valor total.<br>🏨 Hospedagem: 3 Noites em Pousada de Charme + Café da Manhã.<br>🚌 Transfer: Van Compartilhada (Aeroporto de Campo Grande - CGR ↔ Bonito Ida e Volta).<br>🎟️ Passeios: Passeio de Flutuação, Trilha com Cachoeiras, Visita à Gruta do Lago Azul.';
+    document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Centro-Oeste/BONITOms.png" width="400" height="400">';
+    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Bonito+-+MS/@-20.9669012,-56.4822975,10z';
 }
 
 function card23() {
@@ -174,11 +176,12 @@ function card23() {
     document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Não incluso no pacote base.<br>🏨 Hospedagem,3 Noites em Pousada Charmosa/Boutique no Centro Histórico ou próxima (Padrão 321​/4 Estrelas) + Café da Manhã.<br>🚌 Transfer: Compartilhado (Aeroporto de Brasília - BSB ↔ Pirenópolis Ida e Volta).<br>🎟️ Passeios: City Tour Histórico, Passeio à Cachoeira do Rosário, Passeio à Cachoeira do Abad, Jantar na famosa Rua do Lazer.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/CENTRO/pirenopolis.jpg" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Bonito,+MS,+79290-000/@-21.123919,-56.5114437,14z';
+    document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Piren%C3%B3polis,+GO,+72980-000/@-15.8535612,-48.9612299,15z';
 }
 function card24() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Alto Paraíso - Intermediário';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas inclusas no valor total (estimativa de R$ 700).<br>🏨 Hospedagem: 3 Noites em Pousada de Charme (Padrão 3/4 Estrelas em Alto Paraíso) + Café da Manhã.<br>🚌 Transfer: Van Compartilhada (Aeroporto de Brasília - BSB ↔ Alto Paraíso Ida e Volta).<br>🎟️ Passeios: Tour de 3 dias com guia e transporte para os atrativos principais, Saltos do Rio Preto no Parque Nacional, Cachoeiras Almécegas I e II, Vale da Lua.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Passagens aéreas inclusas no valor total.<br>🏨 Hospedagem: 3 Noites em Pousada de Charme (Padrão 3/4 Estrelas em Alto Paraíso) + Café da Manhã.<br>🚌 Transfer: Van Compartilhada (Aeroporto de Brasília - BSB ↔ Alto Paraíso Ida e Volta).<br>🎟️ Passeios: Tour de 3 dias com guia e transporte para os atrativos principais, Saltos do Rio Preto no Parque Nacional, Cachoeiras Almécegas I e II, Vale da Lua.';
     document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Centro-Oeste/ChapadaDosVeadeirosGOIAS.png" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Alto+Para%C3%ADso+de+Goi%C3%A1s,+GO,+73770-000/@-14.1375031,-47.5374037,14z';
 }
@@ -199,7 +202,7 @@ function card26() {
 function card27() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Várzea Grande - Econômico';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso no valor total (Estimativa de R$ 700 - Voo para Cuiabá/Várzea Grande - CGB).<br>🏨 Hospedagem: 3 Noites em Pousada Simples, Hostel ou Hotel Econômico na região central ou aeroporto. Café da Manhã opcional/simples.<br>🚌 Transfer: Uso de Transporte Público (Ônibus) ou Aplicativos de Transporte para o trajeto Aeroporto ↔ Hospedagem e passeios locais.<br>🎟️ Passeios: Visita à Igreja de Nossa Senhora da Guia, Passeio no Parque Ambiental Bernardo Berneck ou Parque Municipal Flor do Ipê, Exploração do Shopping Popular de Várzea Grande e Orla da Alameda Júlio Müller.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso no valor total.<br>🏨 Hospedagem: 3 Noites em Pousada Simples, Hostel ou Hotel Econômico na região central ou aeroporto. Café da Manhã opcional/simples.<br>🚌 Transfer: Uso de Transporte Público (Ônibus) ou Aplicativos de Transporte para o trajeto Aeroporto ↔ Hospedagem e passeios locais.<br>🎟️ Passeios: Visita à Igreja de Nossa Senhora da Guia, Passeio no Parque Ambiental Bernardo Berneck ou Parque Municipal Flor do Ipê, Exploração do Shopping Popular de Várzea Grande e Orla da Alameda Júlio Müller.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/CENTRO/varzeag.png" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/V%C3%A1rzea+Grande,+MT/@-15.6649994,-56.2286836,12z';
 }
@@ -209,7 +212,7 @@ function card27() {
 function card28() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Capitólio - Luxo';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo (est. R$ 1.100) no valor total. Voo sugerido o Aeroporto de Confins - CNF ou Aeroporto de Varginha - VAG, dependendo da logística.<br>🏨 Hospedagem: 3 Noites em Hotel/Pousada Boutique de Luxo em Escarpas do Lago (ou Vista do Lago), com infraestrutura premium, piscina e vista panorâmica para o lago.<br>🚌 Transfer: Privativo (Aeroporto ↔ Capitólio).<br>🎟️ Passeios: Passeio de Lancha Exclusiva, Roteiro privativo pelos Cânions de Furnas, Cachoeira Lagoa Azul e Vale dos Tucanos, utilizando uma embarcação premium e tripulação dedicada.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo. Voo sugerido o Aeroporto de Confins - CNF ou Aeroporto de Varginha - VAG, dependendo da logística.<br>🏨 Hospedagem: 3 Noites em Hotel/Pousada Boutique de Luxo em Escarpas do Lago (ou Vista do Lago), com infraestrutura premium, piscina e vista panorâmica para o lago.<br>🚌 Transfer: Privativo (Aeroporto ↔ Capitólio).<br>🎟️ Passeios: Passeio de Lancha Exclusiva, Roteiro privativo pelos Cânions de Furnas, Cachoeira Lagoa Azul e Vale dos Tucanos, utilizando uma embarcação premium e tripulação dedicada.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/SUDESTE/capitolio.jpg" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Capit%C3%B3lio,+MG,+37930-000/@-20.6151411,-46.0536749,16z';
 }
@@ -230,14 +233,14 @@ function card30() {
 function card31() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Rio de Janeiro - Intermediário';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo (est. R$ 1.000) no valor total.<br>🏨 Hospedagem: 4 Noites em Hotel 4 Estrelas na Zona Sul (Bairros de Copacabana, Ipanema ou Leblon), Alimentação: Café da Manhã diário no hotel.<br>🚌 Traslados: Transfers Aeroporto ↔ Hotel (Ida e Volta) em serviço privativo ou compartilhado confortável.<br> 🎟️ Passeios: Visita aos principais pontos turísticos incluem o Cristo Redentor, o Pão de Açúcar e as praias de Copacabana e Ipanema.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo.<br>🏨 Hospedagem: 4 Noites em Hotel 4 Estrelas na Zona Sul (Bairros de Copacabana, Ipanema ou Leblon), Alimentação: Café da Manhã diário no hotel.<br>🚌 Traslados: Transfers Aeroporto ↔ Hotel (Ida e Volta) em serviço privativo ou compartilhado confortável.<br> 🎟️ Passeios: Visita aos principais pontos turísticos incluem o Cristo Redentor, o Pão de Açúcar e as praias de Copacabana e Ipanema.';
     document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Sudeste/RiodeJaneiro.png" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Rio+de+Janeiro,+RJ/@-22.9137906,-43.7756427,10z';
 }
 function card32() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Ouro Preto - Intermediário';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo (est. R$ 800) no valor total (Geralmente voo para Confins - CNF, em Belo Horizonte)."<br>🏨 Hospedagem: 3 Noites em Pousada de Charme no Centro Histórico + Café da Manhã diário.<br>🚌 Traslados: Transfer Compartilhado (Aeroporto CNF ↔ Ouro Preto). A viagem terrestre de BH para Ouro Preto dura aproximadamente 1h30.<br>🎟️ Passeio: Tour Guiado de Dia Inteiro em Ouro Preto.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Inclusão do Aéreo."<br>🏨 Hospedagem: 3 Noites em Pousada de Charme no Centro Histórico + Café da Manhã diário.<br>🚌 Traslados: Transfer Compartilhado (Aeroporto CNF ↔ Ouro Preto). A viagem terrestre de BH para Ouro Preto dura aproximadamente 1h30.<br>🎟️ Passeio: Tour Guiado de Dia Inteiro em Ouro Preto.';
     document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Sudeste/OuroPretoMGpng.png" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Ouro+Preto,+MG,+35400-000/@-20.391286,-43.5222453,14z';
 }
@@ -251,21 +254,21 @@ function card33() {
 function card34() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Campos do Jordão - Econômico';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo (Opcional),Por conta do cliente. Estimativa de custo a partir de R$ 500 (para o aeroporto de São Paulo).<br>🏨 Hospedagem: 2 Noites em Pousada Simples ou Hotel 3 Estrelas bem avaliado. Localização: Estratégica, perto do Capivari.<br>🚌 Traslado: Transfer Rodoviário Compartilhado (Aeroporto de SP - Guarulhos/Congonhas - ou Rodoviária de SP ↔ Campos do Jordão).';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo (Opcional),Por conta do cliente.<br>🏨 Hospedagem: 2 Noites em Pousada Simples ou Hotel 3 Estrelas bem avaliado. Localização: Estratégica, perto do Capivari.<br>🚌 Traslado: Transfer Rodoviário Compartilhado (Aeroporto de SP - Guarulhos/Congonhas - ou Rodoviária de SP ↔ Campos do Jordão).';
     document.getElementById('imagem').innerHTML = '<img src="./Imagens/fotos/Sudeste/CamposdeJordao.png" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Campos+do+Jord%C3%A3o,+SP,+12460-000/@-22.7330045,-45.6273303,13z';
 }
 function card35() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Petrópolis - Econômico';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Estimado a partir de R$ 500, a ser adicionado ao valor total, se necessário.<br>🏨 Hospedagem: 3 Noites em Pousada Simples/Hostel Privativo em Petrópolis. Regime de Café da Manhã incluso.<br>🚌 Translados: Transfer Rodoviário (Rio ↔ Petrópolis)<br>🎟️ Passeios: Ingresso para Museu Imperial.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo:Áereo.<br>🏨 Hospedagem: 3 Noites em Pousada Simples/Hostel Privativo em Petrópolis. Regime de Café da Manhã incluso.<br>🚌 Translados: Transfer Rodoviário (Rio ↔ Petrópolis)<br>🎟️ Passeios: Ingresso para Museu Imperial.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/SUDESTE/petropolis.jpg" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Petr%C3%B3polis+-+RJ/@-22.3878429,-43.3424539,11z';
 }
 function card36() {
     document.getElementById('cartao').style.display = 'block';
     document.getElementById('cartao_titulo').innerHTML = 'Paraty - Econômico';
-    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso (est. R$ 1.100). CNF ou VAG.<br>🏨 Hospedagem,3 Noites em Hotel/Pousada Boutique de Luxo (Escarpas do Lago).<br>🚌 Transfer: Privativo (Aeroporto ↔ Capitólio).<br>🎟️ Passeios: Lancha Exclusiva (Cânions, Lagoa Azul) + Tour 4x4 Privativo.';
+    document.getElementById('cartao_texto').innerHTML = '<br>✈️ Aéreo: Incluso. CNF ou VAG.<br>🏨 Hospedagem,3 Noites em Hotel/Pousada Boutique de Luxo (Escarpas do Lago).<br>🚌 Transfer: Privativo (Aeroporto ↔ Capitólio).<br>🎟️ Passeios: Lancha Exclusiva (Cânions, Lagoa Azul) + Tour 4x4 Privativo.';
     document.getElementById('imagem').innerHTML = '<img src="./fotoscartao/SUDESTE/paraty.jpg" width="400" height="400">';
     document.getElementById('localizacao').href = 'https://www.google.com/maps/place/Paraty,+RJ/@-23.2175754,-44.7452762,14z';
 }

@@ -84,6 +84,7 @@ h3 {
     justify-content: center;
     gap: 30px;
     font-size: 25px;
+    padding: 0;
 }
 
 nav a {
@@ -455,6 +456,12 @@ h1 {
 }
 
 @media (max-width: 600px) {
+    h2 {
+        font-size: 20px;
+    }
+    .loguinho {
+        display: none;
+    }
     .pai {
         gap: 30px;
         margin: 20px;
@@ -505,11 +512,11 @@ h1 {
     }
 
     footer form {
-        max-width: 300px;
+        max-width: 180px;
     }
 
     .Busca {
         flex-direction: column;
-    }
-    
+    }    
+
 }
