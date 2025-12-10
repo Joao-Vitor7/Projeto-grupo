@@ -136,3 +136,24 @@ body {
    bottom: 0; /*gruda na parte de baixo*/
    width: 100vw; /* viewport width, largura da janela de visualizacao, ex: 50% ira ocupar metade da tela*/
 }
+
+@media (max-width: 600px){
+    .organizacaosaibamais{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px;
+    }
+
+    p{
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 40px;
+        margin: 8px;
+    }
+
+    .footer{
+        position: relative;
+    }
+
+}
