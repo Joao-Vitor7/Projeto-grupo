@@ -107,7 +107,7 @@ body {
 
 .textohorario{
     border:2px solid  var(--borda-horarios); /* cor e tamanho da borda*/
-    border-radius:15% ;/* borda arredondada*/
+    border-radius:30px ;/* borda arredondada*/
     background-color:var(--cor-texto-horario) ; /* cor de fundo*/
 }
 
@@ -115,7 +115,7 @@ body {
     display: flex;
     line-height: 55px; /* espacamento das linhas*/
     font-size: 30px;
-    border-radius:15% ;/* borda arredondada*/
+    border-radius:30px ;/* borda arredondada*/
     margin: 20px; /* margem*/
 }
 
